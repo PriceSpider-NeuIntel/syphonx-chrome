@@ -28,7 +28,7 @@ import {
 
 } from "@mui/icons-material";
 
-const api = new RestApi("https://us-central1-ps-bigdata.cloudfunctions.net/syphonx-service");
+const api = new RestApi("https://xm-hac.pricespy.com/api/v1");
 
 export interface Props {
     open: boolean;
