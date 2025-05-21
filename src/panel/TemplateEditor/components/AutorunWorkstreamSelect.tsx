@@ -38,7 +38,7 @@ export default ({ workstreams, onChange }: Props) => {
 
     return (
         <div>
-            <FormControl sx={{ m: 1, width: '440px' }}>
+            <FormControl sx={{ m: 1, width: 440 }}>
                 <InputLabel id="workstream-label">Workstream</InputLabel>
                 <Select
                     labelId="workstream-label"
@@ -47,6 +47,7 @@ export default ({ workstreams, onChange }: Props) => {
                     onChange={handleChange}
                     input={<OutlinedInput label="Workstream" />}
                     MenuProps={MenuProps}
+                    sx={{ width: 430 }}
                 >
                     {workstreams.map((workstream) => (
                         <MenuItem

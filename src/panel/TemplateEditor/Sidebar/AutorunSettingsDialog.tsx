@@ -20,7 +20,7 @@ import {
     Typography
 } from "@mui/material";
 
-const api = new RestApi("https://us-central1-ps-bigdata.cloudfunctions.net/syphonx-service");
+const api = new RestApi("https://xm-hac.pricespy.com/api/v1");
 const default_workstream = { workstream_id: "default", workstream_name: "default" } as Workstream;
 
 export interface Props {
